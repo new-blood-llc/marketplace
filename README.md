@@ -14,10 +14,15 @@ A [Claude Code plugin marketplace](https://claude.ai/code) for tools built by Ne
 Add the marketplace to Claude Code:
 
 ```
-/install-plugin https://github.com/new-blood-llc/marketplace
+/plugin marketplace add new-blood-llc/marketplace
 ```
 
-Then install individual plugins from the marketplace.
+Then install a plugin:
+
+```
+/plugin install fetch-guard@new-blood-llc
+/plugin install skill-cache@new-blood-llc
+```
 
 ## Access
 

@@ -1,0 +1,28 @@
+{
+  "name": "new-blood-llc",
+  "owner": {
+    "name": "New Blood LLC"
+  },
+  "plugins": [
+    {
+      "name": "fetch-guard",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/new-blood-llc/fetch-guard.git",
+        "path": "plugins/fetch-guard"
+      },
+      "description": "MCP server for controlled web fetching with URL whitelist enforcement",
+      "version": "2.0.0"
+    },
+    {
+      "name": "skill-cache",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/new-blood-llc/skill-cache.git",
+        "path": "plugins/skill-cache"
+      },
+      "description": "Cache the output of any side-effect-free skill. On a hit, returns the cached file; on a miss, delegates to the named skill and caches the result.",
+      "version": "2.0.0"
+    }
+  ]
+}

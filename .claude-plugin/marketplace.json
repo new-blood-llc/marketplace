@@ -23,6 +23,16 @@
       },
       "description": "Cache the output of any side-effect-free skill. On a hit, returns the cached file; on a miss, delegates to the named skill and caches the result.",
       "version": "2.0.0"
+    },
+    {
+      "name": "decision-traces",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/new-blood-llc/traces.git",
+        "path": "plugins/decision-traces"
+      },
+      "description": "Decision trace logger — MCP server with dynamic multi-schema support and configurable storage/embedding backends",
+      "version": "1.0.1"
     }
   ]
 }

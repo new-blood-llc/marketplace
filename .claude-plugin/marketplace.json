@@ -33,6 +33,16 @@
       },
       "description": "Decision trace logger — MCP server with dynamic multi-schema support and configurable storage/embedding backends",
       "version": "1.0.1"
+    },
+    {
+      "name": "db-query",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/new-blood-llc/db-query.git",
+        "path": "plugins/db-query"
+      },
+      "description": "Structured read-only database querying for AI agents — MCP server exposing allowlisted PostgreSQL and SQL Server tables/views through portable filter operators",
+      "version": "0.1.0"
     }
   ]
 }

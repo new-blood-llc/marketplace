@@ -6,6 +6,7 @@ A [Claude Code plugin marketplace](https://claude.ai/code) for tools built by Ne
 
 | Plugin | Description |
 |---|---|
+| **db-query** | Structured read-only database querying for AI agents — MCP server exposing allowlisted PostgreSQL and SQL Server tables/views through portable filter operators |
 | **decision-traces** | Decision trace logger — MCP server with dynamic multi-schema support and configurable storage/embedding backends |
 | **fetch-guard** | MCP server for controlled web fetching with URL whitelist enforcement |
 | **skill-cache** | Cache the output of any side-effect-free skill — returns cached results on hits, delegates and caches on misses |
@@ -21,6 +22,7 @@ Add the marketplace to Claude Code:
 Then install a plugin:
 
 ```
+/plugin install db-query@new-blood-llc
 /plugin install decision-traces@new-blood-llc
 /plugin install fetch-guard@new-blood-llc
 /plugin install skill-cache@new-blood-llc

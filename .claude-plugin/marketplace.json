@@ -32,7 +32,7 @@
         "path": "plugins/decision-traces"
       },
       "description": "Decision trace logger — MCP server with dynamic multi-schema support and configurable storage/embedding backends",
-      "version": "1.0.4"
+      "version": "1.0.5"
     },
     {
       "name": "db-query",

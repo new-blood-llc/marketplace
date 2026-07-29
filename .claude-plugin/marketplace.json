@@ -42,7 +42,7 @@
         "path": "plugins/db-query"
       },
       "description": "Structured read-only database querying for AI agents — MCP server exposing allowlisted PostgreSQL and SQL Server tables/views through portable filter operators",
-      "version": "0.5.1"
+      "version": "0.5.2"
     }
   ]
 }

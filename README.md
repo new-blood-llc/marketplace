@@ -10,7 +10,8 @@ A [Claude Code plugin marketplace](https://claude.ai/code) for tools built by Ne
 | **decision-traces** | Decision trace logger — MCP server with dynamic multi-schema support and configurable storage/embedding backends |
 | **fetch-guard** | MCP server for controlled web fetching with URL whitelist enforcement |
 | **skill-cache** | Cache the output of any side-effect-free skill — returns cached results on hits, delegates and caches on misses |
-| **state-machine** | Drive agent workflows as explicit, resumable state machines. |
+| **sm-workflow** | Drive agent workflows as explicit, resumable state machines. |
+| **sm-workflow-dev** | Design, port, and modify SM workflows — the design-workflow authoring skill for `workflow.yaml` and `STATE.md` |
 
 ## Installation
 
@@ -27,7 +28,8 @@ Then install a plugin:
 /plugin install decision-traces@new-blood-llc
 /plugin install fetch-guard@new-blood-llc
 /plugin install skill-cache@new-blood-llc
-/plugin install state-machine@new-blood-llc
+/plugin install sm-workflow@new-blood-llc
+/plugin install sm-workflow-dev@new-blood-llc
 ```
 
 ## Access

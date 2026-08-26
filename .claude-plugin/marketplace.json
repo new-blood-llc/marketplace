@@ -61,7 +61,7 @@
         "path": "plugins/sm-workflow-dev"
       },
       "description": "Design, port, and modify SM workflows. Ships the design-workflow authoring skill for workflow.yaml and STATE.md, validated with the `step` CLI.",
-      "version": "0.1.0"
+      "version": "0.2.0"
     }
   ]
 }

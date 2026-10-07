@@ -51,7 +51,7 @@
         "url": "https://github.com/new-blood-llc/state-machine.git",
         "path": "plugins/sm-workflow"
       },
-      "description": "Drive agent workflows as explicit, resumable state machines. Ships the run-workflow driver skill for the `step` CLI.",
+      "description": "Drive and inspect explicit, resumable state machines. Ships the run-workflow, workflow-guide, and query-workflow-runs skills for the `step` CLI.",
       "version": "0.3.1"
     },
     {
@@ -61,8 +61,8 @@
         "url": "https://github.com/new-blood-llc/state-machine.git",
         "path": "plugins/sm-workflow-dev"
       },
-      "description": "Design, port, and modify SM workflows. Ships the design-workflow authoring skill for workflow.yaml and STATE.md, validated with the `step` CLI.",
-      "version": "0.2.7"
+      "description": "Design, modify, and isolated-test SM workflows. Ships both the design-workflow and test-workflow-state skills for workflow.yaml and STATE.md, validated with the `step` CLI.",
+      "version": "0.2.8"
     }
   ]
 }

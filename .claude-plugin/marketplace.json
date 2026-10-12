@@ -52,7 +52,7 @@
         "path": "plugins/sm-workflow"
       },
       "description": "Drive and inspect explicit, resumable state machines. Ships the run-workflow, workflow-guide, and query-workflow-runs skills for the `step` CLI.",
-      "version": "0.3.1"
+      "version": "0.3.2"
     },
     {
       "name": "sm-workflow-dev",
@@ -62,7 +62,7 @@
         "path": "plugins/sm-workflow-dev"
       },
       "description": "Design, modify, and isolated-test SM workflows. Ships both the design-workflow and test-workflow-state skills for workflow.yaml and STATE.md, validated with the `step` CLI.",
-      "version": "0.2.8"
+      "version": "0.2.9"
     }
   ]
 }

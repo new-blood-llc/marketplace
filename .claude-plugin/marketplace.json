@@ -62,7 +62,7 @@
         "path": "plugins/sm-workflow-dev"
       },
       "description": "Design, modify, and isolated-test SM workflows. Ships both the design-workflow and test-workflow-state skills for workflow.yaml and STATE.md, validated with the `step` CLI.",
-      "version": "0.2.10"
+      "version": "0.3.0"
     }
   ]
 }

@@ -52,7 +52,7 @@
         "path": "plugins/sm-workflow"
       },
       "description": "Drive and inspect explicit, resumable state machines. Ships the run-workflow, workflow-guide, and query-workflow-runs skills for the `step` CLI.",
-      "version": "0.3.2"
+      "version": "0.3.3"
     },
     {
       "name": "sm-workflow-dev",
@@ -61,8 +61,8 @@
         "url": "https://github.com/new-blood-llc/state-machine.git",
         "path": "plugins/sm-workflow-dev"
       },
-      "description": "Design, modify, and isolated-test SM workflows. Ships both the design-workflow and test-workflow-state skills for workflow.yaml and STATE.md, validated with the `step` CLI.",
-      "version": "0.3.0"
+      "description": "Design, modify, and isolated-test SM workflows. Ships the design-workflow and test-workflow-state skills for workflow.yaml and STATE.md, validated with the `step` CLI, and the design-run-view skill for standalone run-document viewers.",
+      "version": "0.3.3"
     }
   ]
 }

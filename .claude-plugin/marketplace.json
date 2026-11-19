@@ -32,7 +32,7 @@
         "path": "plugins/decision-traces"
       },
       "description": "Decision trace logger — MCP server with dynamic multi-schema support and configurable storage/embedding backends",
-      "version": "1.1.2"
+      "version": "1.2.0"
     },
     {
       "name": "db-query",
@@ -62,7 +62,7 @@
         "path": "plugins/sm-workflow-dev"
       },
       "description": "Design, modify, and isolated-test SM workflows. Ships the design-workflow and test-workflow-state skills for workflow.yaml and STATE.md, validated with the `step` CLI, and the design-run-view skill for standalone run-document viewers.",
-      "version": "0.6.0"
+      "version": "0.7.0"
     }
   ]
 }

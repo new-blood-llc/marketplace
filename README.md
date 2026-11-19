@@ -11,7 +11,7 @@ A [Claude Code plugin marketplace](https://claude.ai/code) for tools built by Ne
 | **fetch-guard** | MCP server for controlled web fetching with URL whitelist enforcement |
 | **skill-cache** | Cache the output of any side-effect-free skill — returns cached results on hits, delegates and caches on misses |
 | **sm-workflow** | Drive and inspect explicit, resumable state machines — includes `run-workflow`, `workflow-guide`, and `query-workflow-runs` |
-| **sm-workflow-dev** | Design, modify, and test individual SM workflow states — includes `design-workflow` and `test-workflow-state` for `workflow.yaml` and `STATE.md` |
+| **sm-workflow-dev** | Design, modify, and test SM workflows — includes `design-workflow`, `test-workflow-state`, and `design-run-view` for standalone run-document viewers |
 
 ## Installation
 
